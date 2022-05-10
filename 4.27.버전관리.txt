@@ -1,0 +1,27 @@
+1. 버전 관리
+- Git : 로컬저장소
+- Git의 호스팅 사이트
+	1) GitHub : 원격저장소
+	2) GitLab.com 
+	3) BitBucket.org
+2. Git
+1) 로컬저장소 만들기
+	- git bash -> git init 명령어 입력 -> .git 폴더 생성
+2) 첫 번째 커밋 만들기
+	(1) 내 정보 등록
+		- git config --global user.email "이메일"
+		- git config --global user.name "닉네임"
+		- git add 파일이름.txt
+	(2) 첫 번째 커밋 작업
+		- git commit -m "내용"
+		- git log
+	(3) 두 번째 커밋 작업
+		- commit 아이디 일부만 복사(7자리)
+		- git checkout 복사한 아이디
+			- 버전관리를 이전 commit으로 되돌림
+		- git checkout -
+3) 원격저장소에 커밋 올리기
+	(1) 원격저장소(repository) 만들기 
+		- git remote add origin + URL 
+		- git push origin master
+ㅇㅇ
